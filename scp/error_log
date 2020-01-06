@@ -1,0 +1,353 @@
+[18-Nov-2019 14:48:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/kgtech/old/include/staff/templates/schedule-holidays.tmpl.php on line 21
+[18-Nov-2019 17:11:31 UTC] PHP Fatal error:  Call to a member function getNumCollaborators() on null in /home2/kgtech/old/include/staff/ticket-view.inc.php on line 856
+[18-Nov-2019 21:55:31 UTC] PHP Fatal error:  Call to a member function getNumCollaborators() on null in /home2/kgtech/old/include/staff/ticket-view.inc.php on line 856
+[27-Dec-2019 16:32:03 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 16:32:18 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 16:33:08 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 16:41:19 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 16:43:41 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 16:44:08 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 17:01:06 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 17:01:17 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[27-Dec-2019 17:29:11 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home2/kgtech/old/include/class.topic.php on line 427
+[27-Dec-2019 17:29:14 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home2/kgtech/old/include/class.topic.php on line 427
+[27-Dec-2019 17:29:16 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home2/kgtech/old/include/class.topic.php on line 427
+[27-Dec-2019 17:29:20 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home2/kgtech/old/include/class.topic.php on line 427
+[27-Dec-2019 17:31:00 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home2/kgtech/old/include/class.topic.php on line 426
+[27-Dec-2019 17:33:36 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[30-Dec-2019 19:43:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(113): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.file.php(183): AttachmentFile->sendData()
+#3 /home2/kgtech/old/scp/logo.php(36): AttachmentFile->display()
+#4 {main}
+  thrown in /home2/kgtech/old/include/class.file.php on line 736
+[30-Dec-2019 19:43:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(113): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.file.php(183): AttachmentFile->sendData()
+#3 /home2/kgtech/old/scp/logo.php(36): AttachmentFile->display()
+#4 {main}
+  thrown in /home2/kgtech/old/include/class.file.php on line 736
+[30-Dec-2019 19:44:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(146): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.config.php(1571): AttachmentFile->delete()
+#3 /home2/kgtech/old/include/class.config.php(1162): OsticketConfig->updatePagesSettings(Array, Array)
+#4 /home2/kgtech/old/scp/settings.php(42): OsticketConfig->updateSettings(Array, Array)
+#5 {main}
+  thrown in /home2/kgtech/old/include/class.file.php on line 736
+[30-Dec-2019 19:44:31 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(146): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.config.php(1571): AttachmentFile->delete()
+#3 /home2/kgtech/old/include/class.config.php(1162): OsticketConfig->updatePagesSettings(Array, Array)
+#4 /home2/kgtech/old/scp/settings.php(42): OsticketConfig->updateSettings(Array, Array)
+#5 {main}
+  thrown in /home2/kgtech/old/include/class.file.php on line 736
+[30-Dec-2019 20:03:44 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:11:44 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:11:47 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:18:21 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:20:30 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:31:59 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:32:03 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:32:10 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:37:26 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:47:39 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 20:47:53 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 21:04:41 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[30-Dec-2019 21:34:50 UTC] PHP Fatal error:  Uncaught exception 'IOException' with message '/home2/kgtech/public_html/osticket/tickets/g/gynhMLCXSVVZCN_Y9qPpRiLQgwobm0aY: Unable to delete file' in /home2/kgtech/old/include/plugins/storage-fs/storage.php:59
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(147): FilesystemStorage->unlink()
+#1 /home2/kgtech/old/include/class.file.php(666): AttachmentFile->delete()
+#2 /home2/kgtech/old/include/class.cron.php(51): AttachmentFile::deleteOrphans()
+#3 /home2/kgtech/old/scp/autocron.php(58): Cron::CleanOrphanedFiles()
+#4 {main}
+  thrown in /home2/kgtech/old/include/plugins/storage-fs/storage.php on line 59
+[30-Dec-2019 22:02:26 UTC] PHP Fatal error:  Uncaught exception 'IOException' with message '/home2/kgtech/public_html/osticket/tickets/5/5EGTiD_TAfokHNkKASMvS_OSpg_hO-5M: Unable to delete file' in /home2/kgtech/old/include/plugins/storage-fs/storage.php:59
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(147): FilesystemStorage->unlink()
+#1 /home2/kgtech/old/include/class.file.php(666): AttachmentFile->delete()
+#2 /home2/kgtech/old/include/class.cron.php(51): AttachmentFile::deleteOrphans()
+#3 /home2/kgtech/old/scp/autocron.php(58): Cron::CleanOrphanedFiles()
+#4 {main}
+  thrown in /home2/kgtech/old/include/plugins/storage-fs/storage.php on line 59
+[31-Dec-2019 13:57:26 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[31-Dec-2019 13:57:51 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[31-Dec-2019 13:57:53 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query: MySQL server has gone away SELECT A1.* FROM `ost_email` A1 WHERE A1.`email_id` = '2'' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3498): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(1991): MySqlExecutor->getArray()
+#2 /home2/kgtech/old/include/class.orm.php(2035): ModelInstanceManager->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1328): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.orm.php(1351): QuerySet->all()
+#9 /home2/kgtech/old/include/class.orm.php(606): QuerySet->one()
+#10 /h in /home2/kgtech/old/include/class.orm.php on line 3452
+[02-Jan-2020 14:45:30 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[02-Jan-2020 14:45:39 UTC] PHP Fatal error:  Method LazyDisplayWrapper::__toString() must not throw an exception in /home2/kgtech/old/include/class.queue.php on line 0
+[02-Jan-2020 14:46:12 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query:  SELECT A1.`topic_id`, A1.`topic_pid`, A1.`ispublic`, A1.`flags`, A1.`orgpconly`, A1.`topic` FROM `ost_help_topic` A1 ORDER BY A1.`sort` ASC' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3507): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(2062): MySqlExecutor->getRow()
+#2 /home2/kgtech/old/include/class.orm.php(2035): FlatArrayIterator->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1721): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.topic.php(354): CachedResultSet->getIterator()
+#9 / in /home2/kgtech/old/include/class.orm.php on line 3452
+[02-Jan-2020 14:46:23 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query:  SELECT A1.`topic_id`, A1.`topic_pid`, A1.`ispublic`, A1.`flags`, A1.`orgpconly`, A1.`topic` FROM `ost_help_topic` A1 ORDER BY A1.`sort` ASC' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3507): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(2062): MySqlExecutor->getRow()
+#2 /home2/kgtech/old/include/class.orm.php(2035): FlatArrayIterator->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1721): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.topic.php(354): CachedResultSet->getIterator()
+#9 / in /home2/kgtech/old/include/class.orm.php on line 3452
+[02-Jan-2020 14:46:27 UTC] PHP Fatal error:  Uncaught exception 'InconsistentModelException' with message 'Unable to prepare query:  SELECT A1.`topic_id`, A1.`topic_pid`, A1.`ispublic`, A1.`flags`, A1.`orgpconly`, A1.`topic` FROM `ost_help_topic` A1 ORDER BY A1.`sort` ASC' in /home2/kgtech/old/include/class.orm.php:3452
+Stack trace:
+#0 /home2/kgtech/old/include/class.orm.php(3507): MySqlExecutor->execute()
+#1 /home2/kgtech/old/include/class.orm.php(2062): MySqlExecutor->getRow()
+#2 /home2/kgtech/old/include/class.orm.php(2035): FlatArrayIterator->{closure}()
+#3 /home2/kgtech/old/include/class.orm.php(2014): CallbackSimpleIterator->next()
+#4 /home2/kgtech/old/include/class.orm.php(2023): CallbackSimpleIterator->rewind()
+#5 /home2/kgtech/old/include/class.orm.php(1695): CallbackSimpleIterator->valid()
+#6 /home2/kgtech/old/include/class.orm.php(1705): CachedResultSet->fillTo(9223372036854775807)
+#7 /home2/kgtech/old/include/class.orm.php(1721): CachedResultSet->asArray()
+#8 /home2/kgtech/old/include/class.topic.php(354): CachedResultSet->getIterator()
+#9 / in /home2/kgtech/old/include/class.orm.php on line 3452
+[02-Jan-2020 15:03:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(113): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.file.php(131): AttachmentFile->sendData(false)
+#3 /home2/kgtech/old/include/class.mailer.php(516): AttachmentFile->getData()
+#4 [internal function]: Mailer->{closure}(Array)
+#5 /home2/kgtech/old/include/class.mailer.php(522): preg_replace_callback('/cid:([\\w.-]{32...', Object(Closure), ' <h3><strong>Hi...')
+#6 /home2/kgtech/old/include/class.email.php(180): Mailer->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', Array, Array)
+#7 /home2/kgtech/old/include/class.email.php(190): Email->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', NULL, Array)
+#8 /home2/kgtech/old/include/class.ticket.php(2127): Email->sendAlert(Object(Staff), 'Stale Ti in /home2/kgtech/old/include/class.file.php on line 736
+[02-Jan-2020 15:17:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(113): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.file.php(131): AttachmentFile->sendData(false)
+#3 /home2/kgtech/old/include/class.mailer.php(516): AttachmentFile->getData()
+#4 [internal function]: Mailer->{closure}(Array)
+#5 /home2/kgtech/old/include/class.mailer.php(522): preg_replace_callback('/cid:([\\w.-]{32...', Object(Closure), ' <h3><strong>Hi...')
+#6 /home2/kgtech/old/include/class.email.php(180): Mailer->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', Array, Array)
+#7 /home2/kgtech/old/include/class.email.php(190): Email->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', NULL, Array)
+#8 /home2/kgtech/old/include/class.ticket.php(2127): Email->sendAlert(Object(Staff), 'Stale Ti in /home2/kgtech/old/include/class.file.php on line 736
+[02-Jan-2020 15:41:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(113): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.file.php(131): AttachmentFile->sendData(false)
+#3 /home2/kgtech/old/include/class.mailer.php(516): AttachmentFile->getData()
+#4 [internal function]: Mailer->{closure}(Array)
+#5 /home2/kgtech/old/include/class.mailer.php(522): preg_replace_callback('/cid:([\\w.-]{32...', Object(Closure), ' <h3><strong>Hi...')
+#6 /home2/kgtech/old/include/class.email.php(180): Mailer->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', Array, Array)
+#7 /home2/kgtech/old/include/class.email.php(190): Email->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', NULL, Array)
+#8 /home2/kgtech/old/include/class.ticket.php(2127): Email->sendAlert(Object(Staff), 'Stale Ti in /home2/kgtech/old/include/class.file.php on line 736
+[02-Jan-2020 16:11:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(113): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.file.php(131): AttachmentFile->sendData(false)
+#3 /home2/kgtech/old/include/class.mailer.php(516): AttachmentFile->getData()
+#4 [internal function]: Mailer->{closure}(Array)
+#5 /home2/kgtech/old/include/class.mailer.php(522): preg_replace_callback('/cid:([\\w.-]{32...', Object(Closure), ' <h3><strong>Hi...')
+#6 /home2/kgtech/old/include/class.email.php(180): Mailer->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', Array, Array)
+#7 /home2/kgtech/old/include/class.email.php(190): Email->send(Object(Staff), 'Stale Ticket Al...', ' <h3><strong>Hi...', NULL, Array)
+#8 /home2/kgtech/old/include/class.ticket.php(2127): Email->sendAlert(Object(Staff), 'Stale Ti in /home2/kgtech/old/include/class.file.php on line 736
+[02-Jan-2020 17:53:11 UTC] PHP Fatal error:  Uncaught exception 'IOException' with message '/home2/kgtech/public_html/osticket/tickets/n/nyyeSmRkZEi3jV9Xwr5tEVIXeTc4bepw: Unable to delete file' in /home2/kgtech/old/include/plugins/storage-fs/storage.php:59
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(147): FilesystemStorage->unlink()
+#1 /home2/kgtech/old/include/class.file.php(666): AttachmentFile->delete()
+#2 /home2/kgtech/old/include/class.cron.php(51): AttachmentFile::deleteOrphans()
+#3 /home2/kgtech/old/scp/autocron.php(58): Cron::CleanOrphanedFiles()
+#4 {main}
+  thrown in /home2/kgtech/old/include/plugins/storage-fs/storage.php on line 59
+[02-Jan-2020 18:54:15 UTC] PHP Fatal error:  Undefined class constant 'PERM_SDIRECTORY' in /home2/kgtech/old/include/class.nav.php on line 163

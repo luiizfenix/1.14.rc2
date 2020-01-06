@@ -1,0 +1,9 @@
+
+[30-Dec-2019 19:43:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No such backend registered' in /home2/kgtech/old/include/class.file.php:736
+Stack trace:
+#0 /home2/kgtech/old/include/class.file.php(109): FileStorageBackend::getInstance(Object(AttachmentFile))
+#1 /home2/kgtech/old/include/class.file.php(113): AttachmentFile->open()
+#2 /home2/kgtech/old/include/class.file.php(183): AttachmentFile->sendData()
+#3 /home2/kgtech/old/logo.php(27): AttachmentFile->display()
+#4 {main}
+  thrown in /home2/kgtech/old/include/class.file.php on line 736
